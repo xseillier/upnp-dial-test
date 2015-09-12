@@ -5,7 +5,7 @@ I'm more interested in the device which supports DIAL (Discovery and Launch www.
 
 DIAL is a simple protocol that second-screen devices can use to discover and launch apps on first-screen devices. You my test have use the Youtube app on my chromecast and on my smart TV
 
-For the fun, I wrote an application that launches the Nyan Cat video on all devices, and supporting the protocol DIAL and have the YouTube app
+For the fun, I wrote an application that launches the Nyan Cat video on all devices that support DIAL protocol and have the YouTube app
 
 ### Version
 1.0
