@@ -115,6 +115,7 @@ public class UpnpDiscover {
 	    	if( aTasks.size() > 0  ) {
 	    		try {
 	    			List< Future<UpnpDevice> > result = executorService.invokeAll( aTasks );
+	    			executorService.shutdown();
 	    			for( Future<UpnpDevice> oDevice : result ) {
 	    				
 	    				if( oDevice.isDone() ) {
