@@ -50,8 +50,8 @@ public class NynaCatLauncher {
 							if( DialUtils.checkApp( oUpnpDialDevice , DialApplication.YOUTUBE) ) {
 								oUpnpDialDevice.addApplication( DialApplication.YOUTUBE );
 								System.out.println( "Launch video on " + oUpnpDialDevice.getFriendlyName() );
-							//	new YouTubeApp( oUpnpDialDevice ).playVideo( NYAN_CAT_VIDEO_ID );
-								new YouTubeApp( oUpnpDialDevice ).stopVideo();
+								new YouTubeApp( oUpnpDialDevice ).playVideo( NYAN_CAT_VIDEO_ID );
+							//	new YouTubeApp( oUpnpDialDevice ).stopVideo();
 							}
 							else {
 								System.out.println( "YouTube app not supported by  " + oUpnpDialDevice.getFriendlyName() );
